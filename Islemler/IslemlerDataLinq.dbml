@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TahaZiraat" Class="IslemlerDataLinqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=JOKER;Initial Catalog=TahaZiraat;Persist Security Info=True;User ID=sa" SettingsObjectName="SicilNet.Properties.Settings" SettingsPropertyName="SicilBaglantiSatiri" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.siciller" Member="sicillers">
+    <Type Name="siciller">
+      <Column Name="UYE_ID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UYE_KOD" Type="System.String" DbType="VarChar(8) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UYE_MAHALLE" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+      <Column Name="UYE_SOYADI" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="UYE_ADI" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="UYE_BABA" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="UYE_YERI" Type="System.String" DbType="VarChar(40)" CanBeNull="true" />
+      <Column Name="UYE_DOGUMTRH" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="UYE_N_IL" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UYE_N_ILCE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UYE_GIRISTRH" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UYE_CIKISTRH" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UYE_MEDENIHAL" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="UYE_MEZUNIYET" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="UYE_DERECE" Type="System.String" DbType="VarChar(1)" CanBeNull="true" />
+      <Column Name="UYE_K_ILI" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UYE_K_ILCE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UYE_K_KAYITYER" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UYE_K_CILTNO" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UYE_VERILDIGIYR" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UYE_VEZNE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UYE_K_KUTNO" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="UYE_CTARIHI" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UYE_ENO" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UYE_ANNE" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UYE_DNYR" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="UYE_BAGKURNO" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="UYE_VERGINO" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="UYE_TRK" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="UYE_CINSIYET" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="UYE_MERNISNO" Type="System.String" DbType="VarChar(12)" CanBeNull="true" />
+      <Column Name="UYE_KULLANICI" Type="System.String" DbType="VarChar(25)" CanBeNull="true" />
+      <Column Name="UYE_A_TARIH" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="UYE_BUCAGI" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="UYE_ALANKODU" Type="System.String" DbType="VarChar(3)" CanBeNull="true" />
+      <Column Name="UYE_SABITTEL" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="UYE_ADRESI" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="UYE_SIGORTA" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="UYE_MHKAPNO" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="UYE_DURUMU" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UYE_YONKURTARSIL" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UYE_YONKARNOSIL" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="UYE_YONKURTARKYT" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UYE_YONKURNOKYT" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="UYE_ODANO" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="UYE_BAKTIGIKIZ" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UYE_KAYITTURU" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="UYE_SONBEYANTRH" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="UYE_UYRUK" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Column Name="UYE_CEPTELEFON" Type="System.String" DbType="VarChar(11)" CanBeNull="true" />
+      <Column Name="UYE_AYRILISACIKLAMA" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="UYE_GNSACIKLAMA" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="UYE_GMAHALLE" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="UYE_SIRANOG" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="UYE_SMSGRUP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 12.375" name="IslemlerDataLinq">
+  <DataContextMoniker Name="/IslemlerDataLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="8f0bd1b8-3be6-4486-9ed2-a254e3b4274c" absoluteBounds="1.125, 2.375, 2, 9.8065616861979148">
+      <DataClassMoniker Name="/IslemlerDataLinqDataContext/siciller" />
+      <nestedChildShapes>
+        <elementListCompartment Id="37005552-260a-45cd-b117-81ba6e80739a" absoluteBounds="1.1400000000000001, 2.835, 1.9700000000000002, 9.2465616861979161" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
